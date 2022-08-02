@@ -1,0 +1,8 @@
+name = "lists-do"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+route = "lists.do/*"
+main = "worker.js"
+compatibility_date = "2022-07-18"
+
+[durable_objects]
+bindings = [{name = "COLO", class_name = "Colo"}]
